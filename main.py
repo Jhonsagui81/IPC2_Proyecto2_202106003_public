@@ -414,7 +414,7 @@ def ayuda():
     text_area.delete(1.0, tk.END)
     Retorno = "NOMBRE"+"\t\t\t"+"APELLIDO"+"\t\t\t"+"CARNET"+"\n\n"
     Retorno += "Jhonatan Alexander"+"\t\t\t"+"Aguilar Reyes"+"\t\t\t"+"202106003"+"\n"
-    Retorno += "Link de la documentacion: ...pendiendte"
+    Retorno += "Link de la documentacion: https://github.com/Jhonsagui81/IPC2_Proyecto2_202106003_public/blob/main/Documentacion/Ensayo.pdf"
     
     text_area.insert(1.0, Retorno)
     text_area.pack()
