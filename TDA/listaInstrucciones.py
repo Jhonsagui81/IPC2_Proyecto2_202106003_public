@@ -18,16 +18,6 @@ class Instrucciones:
             self.Final = NuevoNodo
             self.limite += 1
 
-    # def InsertarMaquina(self, nombreMaquina, lista_pines):
-    #     NuevoNodo = NodoDesglozado(nombreMaquina, lista_pines)
-    #     if self.Inicio == None:
-    #         self.Inicio = NuevoNodo
-    #         self.Final = NuevoNodo
-    #     else:
-    #         self.Final.AsignarSiguiente(NuevoNodo)
-    #         self.Final = NuevoNodo
-
-
     def PosicionXPin(self, pin):
         Auxiliar = self.Inicio
         while Auxiliar != None:
